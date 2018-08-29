@@ -2,7 +2,7 @@ def minSdkVersion = 16;
 
 def getConfigPreference(name) {
     name = name.toLowerCase();
-    def xml = file("res/xml/config.xml").getText();
+    def xml = file("../app/src/main/res/xml/config.xml").getText();
     def root = new XmlParser(false, false).parseText(xml);
 
     def ret, defaultValue;
