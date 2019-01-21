@@ -1,4 +1,4 @@
-def minSdkVersion = 16;
+def minSdkVersion = 19;
 
 def getConfigPreference(name) {
     name = name.toLowerCase();
